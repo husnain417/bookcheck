@@ -5,42 +5,42 @@
         "allBlog": "All Blogs",
         "blogList": [
             {
-                "image": "assets/images/blog/blog_01.jpg",
+                "image": "assets/images/blog/blog1.jpg",
                 "title": "Top Study Materials for Engineering Students",
                 "description": "Explore the best study books and guides every engineering student must have. Compare prices and find deals on essential textbooks.",
                 "date": "25 November, 2024",
                 "author": "Alex Carter"
             },
             {
-                "image": "assets/images/blog/blog_02.jpg",
+                "image": "assets/images/blog/blog2.png",
                 "title": "Second-Hand vs. New Books: What's Best for Students?",
                 "description": "Should you buy new textbooks or opt for second-hand copies? Discover the pros and cons of both and tips for making the best choice.",
                 "date": "20 November, 2024",
                 "author": "Samantha Brown"
             },
             {
-                "image": "assets/images/blog/blog_03.jpg",
+                "image": "assets/images/blog/blog3.png",
                 "title": "How to Save Money on Study Books",
                 "description": "Learn how to save on textbooks using BookCheck's price comparison tool, along with tips for finding discounts and deals.",
                 "date": "15 November, 2024",
                 "author": "Ryan Walker"
             },
             {
-                "image": "assets/images/blog/blog_04.jpg",
+                "image": "assets/images/blog/blog4.jpeg",
                 "title": "5 Must-Have Study Materials for Business Students",
                 "description": "From accounting textbooks to marketing case studies, explore essential books for business programs with price comparisons.",
                 "date": "10 November, 2024",
                 "author": "Emily White"
             },
             {
-                "image": "assets/images/blog/blog_05.jpg",
+                "image": "assets/images/blog/blog5.jpg",
                 "title": "E-Books vs. Physical Books: Which is Better for Students?",
                 "description": "Dive into the debate on e-books versus physical books and how to decide what's best for your learning style and budget.",
                 "date": "5 November, 2024",
                 "author": "Mark Johnson"
             },
             {
-                "image": "assets/images/blog/blog_06.jpg",
+                "image": "assets/images/blog/blog6.jpg",
                 "title": "How BookCheck Simplifies Textbook Shopping",
                 "description": "Discover how BookCheck streamlines the process of finding and comparing textbooks, saving you time and money.",
                 "date": "1 November, 2024",
