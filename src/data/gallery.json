@@ -1,228 +1,228 @@
 {
   "gallery": {
-    "title": "Discover Our Latest and Classic Books",
-    "subtitle": "Book Gallery",
+    "title": "Discover Our Latest and Essential University Course Books",
+    "subtitle": "University Course Book Gallery",
     "galleryMenu": [
       {
-        "title": "All Books"
+        "title": "All Courses"
       },
       {
-        "title": "Fiction"
+        "title": "Computer Science"
       },
       {
-        "title": "Fantasy"
+        "title": "Mathematics"
       },
       {
-        "title": "Comics"
+        "title": "Physics"
       },
       {
-        "title": "History"
+        "title": "Engineering"
       }
     ],
     "galleryItem": [
       {
-        "image": "assets/images/gallery/book1.jpg",
-        "title": "The Midnight Library",
-        "subtitle": "Fiction",
-        "id": "fiction",
-        "content": "A story about life's choices and regrets, where Nora Seed discovers a library that offers her the chance to explore alternate lives.",
+        "image": "assets/images/gallery/book1_1.jpg",
+        "title": "Introduction to Algorithms",
+        "subtitle": "Computer Science - MIT",
+        "id": "computer-science",
+        "content": "An essential guide to understanding algorithms, data structures, and their applications in programming.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Matt Haig"
+            "metaContent": "Thomas H. Cormen"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Fiction"
+            "metaContent": "Computer Science"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "August 13, 2020"
+            "metaContent": "July 31, 2009"
           }
         ],
         "detailList": [
           {
-            "title": "A bestseller in contemporary fiction."
+            "title": "A foundational textbook in computer science."
           },
           {
-            "title": "Explores philosophical themes of existence."
+            "title": "In-depth coverage of algorithms and data structures."
           },
           {
-            "title": "Highly acclaimed worldwide."
+            "title": "Used in top universities worldwide."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book2.jpg",
-        "title": "A Court of Thorns and Roses",
-        "subtitle": "Fantasy",
-        "id": "fantasy",
-        "content": "A fantasy romance novel about a huntress caught in the realm of faeries, navigating love and danger.",
+        "image": "assets/images/gallery/book1_2.jpg",
+        "title": "Calculus: Early Transcendentals",
+        "subtitle": "Mathematics - University of Toronto",
+        "id": "mathematics",
+        "content": "A comprehensive textbook that covers differential and integral calculus, designed for university students.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Sarah J. Maas"
+            "metaContent": "James Stewart"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Fantasy"
+            "metaContent": "Mathematics"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "May 5, 2015"
+            "metaContent": "December 10, 2015"
           }
         ],
         "detailList": [
           {
-            "title": "The beginning of an epic series."
+            "title": "Widely used in university-level calculus courses."
           },
           {
-            "title": "Blend of fantasy, romance, and action."
+            "title": "Clear explanations of fundamental calculus concepts."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book3.jpg",
-        "title": "Maus",
-        "subtitle": "Comics",
-        "id": "comics",
-        "content": "A Pulitzer Prize-winning graphic novel about a Holocaust survivor’s experiences, depicted with animals as characters.",
+        "image": "assets/images/gallery/book1_3.jpg",
+        "title": "Fundamentals of Physics",
+        "subtitle": "Physics - Harvard University",
+        "id": "physics",
+        "content": "A comprehensive introduction to the key principles of physics, including mechanics, thermodynamics, and electromagnetism.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Art Spiegelman"
+            "metaContent": "David Halliday, Robert Resnick"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Comics"
+            "metaContent": "Physics"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "1980–1991"
+            "metaContent": "April 1, 2013"
           }
         ],
         "detailList": [
           {
-            "title": "A must-read graphic novel."
+            "title": "A key textbook for university physics students."
           },
           {
-            "title": "Praised for its raw storytelling."
+            "title": "Incorporates a broad range of physics topics."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book4.jpg",
-        "title": "The History of the Ancient World",
-        "subtitle": "History",
-        "id": "history",
-        "content": "A detailed account of the ancient civilizations from the rise of Sumer to the fall of Rome.",
+        "image": "assets/images/gallery/book1_4.jpg",
+        "title": "Engineering Mechanics: Dynamics",
+        "subtitle": "Engineering - Stanford University",
+        "id": "engineering",
+        "content": "A textbook focused on the principles of dynamics, including kinematics and kinetics of particles and rigid bodies.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Susan Wise Bauer"
+            "metaContent": "J.L. Meriam, L.G. Kraige"
           },
           {
             "metaName": "Category:",
-            "metaContent": "History"
+            "metaContent": "Engineering"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "March 17, 2007"
+            "metaContent": "April 20, 2012"
           }
         ],
         "detailList": [
           {
-            "title": "Comprehensive historical overview."
+            "title": "Covers the fundamental concepts of dynamics."
           },
           {
-            "title": "Covers major ancient civilizations."
+            "title": "Widely used in mechanical and civil engineering courses."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book5.jpg",
-        "title": "The Hobbit",
-        "subtitle": "Fantasy",
-        "id": "fantasy",
-        "content": "Bilbo Baggins embarks on an unexpected adventure that sets the stage for the legendary *Lord of the Rings* series.",
+        "image": "assets/images/gallery/book1_5.jpg",
+        "title": "Discrete Mathematics and Its Applications",
+        "subtitle": "Computer Science - UC Berkeley",
+        "id": "computer-science",
+        "content": "A comprehensive book for learning discrete mathematics, including logic, set theory, combinatorics, and graph theory.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "J.R.R. Tolkien"
+            "metaContent": "Kenneth H. Rosen"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Fantasy"
+            "metaContent": "Computer Science"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "September 21, 1937"
+            "metaContent": "July 6, 2011"
           }
         ],
         "detailList": [
           {
-            "title": "A timeless classic in fantasy."
+            "title": "Key textbook for computer science students."
           },
           {
-            "title": "Precursor to the epic LOTR trilogy."
+            "title": "Offers clear examples and explanations of mathematical concepts."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book6.jpg",
-        "title": "Pride and Prejudice",
-        "subtitle": "Fiction",
-        "id": "fiction",
-        "content": "A romantic tale of love and social manners in 19th-century England.",
+        "image": "assets/images/gallery/book1_6.jpeg",
+        "title": "Introduction to Quantum Mechanics",
+        "subtitle": "Physics - MIT",
+        "id": "physics",
+        "content": "An introductory text on quantum mechanics, aimed at university students with a background in classical mechanics and basic mathematics.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Jane Austen"
+            "metaContent": "David J. Griffiths"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Fiction"
+            "metaContent": "Physics"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "January 28, 1813"
+            "metaContent": "September 1, 2017"
           }
         ],
         "detailList": [
           {
-            "title": "One of the greatest literary works."
+            "title": "A widely used textbook in introductory quantum mechanics."
           },
           {
-            "title": "Explores themes of love and class."
+            "title": "Thorough coverage of key topics like wave functions and operators."
           }
         ]
       },
       {
-        "image": "assets/images/gallery/book7.jpg",
-        "title": "Batman: The Killing Joke",
-        "subtitle": "Comics",
-        "id": "comics",
-        "content": "A seminal graphic novel that delves into the origin story of The Joker and his conflict with Batman.",
+        "image": "assets/images/gallery/book1_7.jpg",
+        "title": "Strength of Materials",
+        "subtitle": "Engineering - Purdue University",
+        "id": "engineering",
+        "content": "A key textbook in materials science, focusing on stress, strain, and the properties of materials under various forces.",
         "clientMeta": [
           {
             "metaName": "Author:",
-            "metaContent": "Alan Moore"
+            "metaContent": "R.C. Hibbeler"
           },
           {
             "metaName": "Category:",
-            "metaContent": "Comics"
+            "metaContent": "Engineering"
           },
           {
             "metaName": "Published On:",
-            "metaContent": "1988"
+            "metaContent": "July 24, 2013"
           }
         ],
         "detailList": [
           {
-            "title": "Considered one of the best Batman comics."
+            "title": "Essential for students of mechanical and civil engineering."
           },
           {
-            "title": "Dives into psychological complexities."
+            "title": "Covers the study of stress, strain, and deformation of materials."
           }
         ]
       }
