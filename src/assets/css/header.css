@@ -1,0 +1,18 @@
+.navbar-brand img {
+    max-width: 60px; /* Adjust width as needed */
+    height: auto;    /* Maintain aspect ratio */
+    display: block;  /* Ensures proper alignment */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      max-width: 120px; /* Smaller size for smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .navbar-brand img {
+      max-width: 100px; /* Further reduce size for extra small screens */
+    }
+  }
+  

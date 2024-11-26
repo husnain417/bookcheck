@@ -1,0 +1,122 @@
+{
+    "features": {
+        "title": "Key Features",
+        "subtitle": "Explore Our Highlights",
+        "featureItems": [
+            {
+                "title": "New Books",
+                "imgPath": "assets/images/newbook.jpg",
+                "btnText": "SEE LIST",
+                "description": [
+                    {
+                        "item": "Brand-new condition"
+                    },
+                    {
+                        "item": "Institute-specific recommendations"
+                    },
+                    {
+                        "item": "Secure checkout"
+                    },
+                    {
+                        "item": "Affiliate linking support"
+                    }
+                ]
+            },
+            {
+                "title": "Second-hand Books",
+                "imgPath": "assets/images/secondhand.jpg",
+                "btnText": "SEE LIST",
+                "description": [
+                    {
+                        "item": "Pre-owned with verified quality"
+                    },
+                    {
+                        "item": "Affordable pricing"
+                    },
+                    {
+                        "item": "Institute-specific recommendations"
+                    },
+                    {
+                        "item": "Secure checkout"
+                    }
+                ]
+            },
+            {
+                "title": "Institute-specific Recommendations",
+                "imgPath": "assets/images/sat.jpg",
+                "btnText": "EXPLORE OPTIONS",
+                "description": [
+                    {
+                        "item": "Customized book list"
+                    },
+                    {
+                        "item": "Curated for your institute"
+                    },
+                    {
+                        "item": "Includes both new and second-hand books"
+                    },
+                    {
+                        "item": "Easy affiliate linking"
+                    }
+                ]
+            },
+            {
+                "title": "Secure Checkout",
+                "imgPath": "assets/images/payment.avif",
+                "btnText": "LEARN MORE",
+                "description": [
+                    {
+                        "item": "Safe and encrypted payment"
+                    },
+                    {
+                        "item": "Hassle-free process"
+                    },
+                    {
+                        "item": "Supports multiple payment methods"
+                    },
+                    {
+                        "item": "No hidden charges"
+                    }
+                ]
+            },
+            {
+                "title": "Price Comparison",
+                "imgPath": "assets/images/price.jpeg",
+                "btnText": "COMPARE NOW",
+                "description": [
+                    {
+                        "item": "View prices for new and second-hand books"
+                    },
+                    {
+                        "item": "Sorted by lowest price"
+                    },
+                    {
+                        "item": "Comprehensive price breakdown"
+                    },
+                    {
+                        "item": "User-friendly interface"
+                    }
+                ]
+            },
+            {
+                "title": "Affiliate Integration",
+                "imgPath": "assets/images/aff.avif",
+                "btnText": "EXPLORE AFFILIATES",
+                "description": [
+                    {
+                        "item": "Links to purchase options on affiliate sites"
+                    },
+                    {
+                        "item": "BookCheck inventory fallback support"
+                    },
+                    {
+                        "item": "Supports major retailers"
+                    },
+                    {
+                        "item": "Easy navigation to affiliate sites"
+                    }
+                ]
+            }
+        ]
+    }
+}

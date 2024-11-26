@@ -1,0 +1,231 @@
+{
+  "gallery": {
+    "title": "Discover Our Latest and Classic Books",
+    "subtitle": "Book Gallery",
+    "galleryMenu": [
+      {
+        "title": "All Books"
+      },
+      {
+        "title": "Fiction"
+      },
+      {
+        "title": "Fantasy"
+      },
+      {
+        "title": "Comics"
+      },
+      {
+        "title": "History"
+      }
+    ],
+    "galleryItem": [
+      {
+        "image": "assets/images/gallery/book1.jpg",
+        "title": "The Midnight Library",
+        "subtitle": "Fiction",
+        "id": "fiction",
+        "content": "A story about life's choices and regrets, where Nora Seed discovers a library that offers her the chance to explore alternate lives.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Matt Haig"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Fiction"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "August 13, 2020"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "A bestseller in contemporary fiction."
+          },
+          {
+            "title": "Explores philosophical themes of existence."
+          },
+          {
+            "title": "Highly acclaimed worldwide."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book2.jpg",
+        "title": "A Court of Thorns and Roses",
+        "subtitle": "Fantasy",
+        "id": "fantasy",
+        "content": "A fantasy romance novel about a huntress caught in the realm of faeries, navigating love and danger.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Sarah J. Maas"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Fantasy"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "May 5, 2015"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "The beginning of an epic series."
+          },
+          {
+            "title": "Blend of fantasy, romance, and action."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book3.jpg",
+        "title": "Maus",
+        "subtitle": "Comics",
+        "id": "comics",
+        "content": "A Pulitzer Prize-winning graphic novel about a Holocaust survivor’s experiences, depicted with animals as characters.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Art Spiegelman"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Comics"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "1980–1991"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "A must-read graphic novel."
+          },
+          {
+            "title": "Praised for its raw storytelling."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book4.jpg",
+        "title": "The History of the Ancient World",
+        "subtitle": "History",
+        "id": "history",
+        "content": "A detailed account of the ancient civilizations from the rise of Sumer to the fall of Rome.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Susan Wise Bauer"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "History"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "March 17, 2007"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Comprehensive historical overview."
+          },
+          {
+            "title": "Covers major ancient civilizations."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book5.jpg",
+        "title": "The Hobbit",
+        "subtitle": "Fantasy",
+        "id": "fantasy",
+        "content": "Bilbo Baggins embarks on an unexpected adventure that sets the stage for the legendary *Lord of the Rings* series.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "J.R.R. Tolkien"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Fantasy"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "September 21, 1937"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "A timeless classic in fantasy."
+          },
+          {
+            "title": "Precursor to the epic LOTR trilogy."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book6.jpg",
+        "title": "Pride and Prejudice",
+        "subtitle": "Fiction",
+        "id": "fiction",
+        "content": "A romantic tale of love and social manners in 19th-century England.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Jane Austen"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Fiction"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "January 28, 1813"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "One of the greatest literary works."
+          },
+          {
+            "title": "Explores themes of love and class."
+          }
+        ]
+      },
+      {
+        "image": "assets/images/gallery/book7.jpg",
+        "title": "Batman: The Killing Joke",
+        "subtitle": "Comics",
+        "id": "comics",
+        "content": "A seminal graphic novel that delves into the origin story of The Joker and his conflict with Batman.",
+        "clientMeta": [
+          {
+            "metaName": "Author:",
+            "metaContent": "Alan Moore"
+          },
+          {
+            "metaName": "Category:",
+            "metaContent": "Comics"
+          },
+          {
+            "metaName": "Published On:",
+            "metaContent": "1988"
+          }
+        ],
+        "detailList": [
+          {
+            "title": "Considered one of the best Batman comics."
+          },
+          {
+            "title": "Dives into psychological complexities."
+          }
+        ]
+      }
+    ]
+  }
+}

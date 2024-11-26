@@ -1,0 +1,65 @@
+/* Features section container */
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+    padding: 60px 40px;
+    gap: 20px; /* Spacing between features */
+  }
+  
+  /* Individual feature box */
+  .feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px;
+    background-color: #F5EBE6;
+    width: calc(25% - 20px); /* 4 items in a row with gap */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .feature:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Feature icon styling */
+  .feature-icon {
+    font-size: 40px;
+    color: #eb511a;
+    margin-bottom: 10px;
+  }
+  
+  /* Feature title */
+  .feature-text h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #333;
+  }
+  
+  /* Feature description */
+  .feature-text p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  /* Responsiveness for medium screens (2 per row) */
+  @media (max-width: 768px) {
+    .feature {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  /* Responsiveness for small screens (1 per row) */
+  @media (max-width: 480px) {
+    .feature {
+      width: 100%;
+    }
+  }
+  

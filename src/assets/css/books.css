@@ -1,0 +1,61 @@
+.book-slide-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .book-image-wrapper {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .book-details {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .book-title {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .book-price {
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+
+  .original-price {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+
+  .book-image {
+    transition: transform 0.3s ease;
+  }
+
+  .book-image-wrapper:hover .book-image {
+    transform: scale(1.1);
+  }
+
+  @media (max-width: 767px) {
+    .glightbox-mobile-config {
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+
+  .btn {
+    background-color: white !important;
+    color: rgb(235, 81, 26) !important;
+    border: 2px solid rgb(235, 81, 26) !important;
+  }
+  
+  .btn:hover {
+    background-color: rgb(235, 81, 26) !important;
+    color: white !important;
+    border: 2px solid rgb(235, 81, 26) !important;
+  }
+  
