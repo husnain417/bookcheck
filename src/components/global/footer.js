@@ -3,6 +3,7 @@ import CtaV3 from "../ctav3";
 import data from "../../data/footer.json";
 import { Link } from "react-scroll";
 import { siteLogo, socialLink } from "../../global";
+import logo from '../../assets/Logo Kit/1x/Asset 2.png';
 
 const Footer = ({ menu, isBg }) => {
   const { footer } = data;
@@ -16,12 +17,20 @@ const Footer = ({ menu, isBg }) => {
         <div className="container">
           <div className="footer__top m-50px-t m-50px-b">
             <div className="row">
-              <div className="col-lg-3 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-start">
-                <a href="/">
-                  {/* <!-- <h1 className="m-0">BOOKCHECK</h1> --> */}
-                  <img src={siteLogo.logo} alt={siteLogo.alt} />
-                </a>
-              </div>
+            <div className="col-lg-3 d-flex justify-content-center align-items-center mb-3 mb-lg-0 justify-content-lg-start">
+              <a href="/">
+                {/* <!-- <h1 className="m-0">BOOKCHECK</h1> --> */}
+                <img
+                  src={logo}
+                  alt={siteLogo.alt}
+                  style={{
+                    height: "60px", // Adjust height as needed
+                    width: "auto",  // Keeps the aspect ratio intact
+                    maxWidth: "100%", // Ensures it doesn't overflow its container
+                  }}
+                />
+              </a>
+            </div>
               <div className="col-lg-6 d-flex justify-content-center align-items-center mb-3 mb-lg-0">
                 <ul className="footer__menu">
                   {menu?.map((data, i) => (
@@ -126,7 +135,7 @@ const Footer = ({ menu, isBg }) => {
             </div>
           </div>
           <hr />
-          <div className="footer__copyright m-20px-t m-20px-b">
+          {/* <div className="footer__copyright m-20px-t m-20px-b">
             <div className="row">
               <div className="col-12">
                 <p className="m-0 text-center">
@@ -142,7 +151,7 @@ const Footer = ({ menu, isBg }) => {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </footer>
     </>

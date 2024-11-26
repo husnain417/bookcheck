@@ -6,35 +6,44 @@
     "menu": [
       {
         "link": "hero",
-        "title": "Home"
+        "title": "Home",
+        "isDropdown": false,
+        "dropdownItem": [
+          {
+            "link": "/",
+            "title": "Version 01"
+          }
+        ]
       },
       {
-        "link": "benefits",
-        "title": "Benefits"
+        "link": "search",
+        "title": "Search",
+        "isDropdown": false
       },
       {
-        "link": "chapters",
-        "title": "Chapters"
+        "link": "products",
+        "title": "Products",
+        "isDropdown": false
       },
       {
-        "link": "pricing",
-        "title": "Pricing"
+        "link": "blog",
+        "title": "Blog",
+        "isDropdown": false
       },
       {
-        "link": "author",
-        "title": "Author"
+        "link": "cart",
+        "title": "Cart & Checkout",
+        "isDropdown": false
       },
       {
-        "link": "achievement",
-        "title": "Achievement"
-      },
-      {
-        "link": "reviews",
-        "title": "Reviews"
+        "link": "account",
+        "title": "Account",
+        "isDropdown": false
       },
       {
         "link": "contact",
-        "title": "Contact"
+        "title": "Contact & Support",
+        "isDropdown": false
       }
     ],
     "menuv2": [

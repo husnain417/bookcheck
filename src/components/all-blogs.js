@@ -50,7 +50,7 @@ const AllBlogs = ({ isBg }) => {
             </div>
           ))}
         </div>
-        <div className="blog__pagination">
+        {/* <div className="blog__pagination">
           <nav aria-label="Page navigation example">
             <ul className="pagination">
               <li className="page-item">
@@ -80,7 +80,7 @@ const AllBlogs = ({ isBg }) => {
               </li>
             </ul>
           </nav>
-        </div>
+        </div> */}
       </div>
     </section>
   );

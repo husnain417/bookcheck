@@ -1,42 +1,42 @@
 {
   "testimonial": {
-    "title": "What people said about my books",
+    "title": "What people said about BookCheck",
     "subtitle": "TESTIMONIALS",
     "testimonialItem": [
       {
         "id": 1,
-        "name": "Brightlight books",
-        "title": "Ubold Customer",
-        "image": "./assets/images/user-2.png",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+        "name": "The Reading Corner",
+        "title": "Frequent User",
+        "image": "./assets/images/user-1.png",
+        "description": "BookCheck has completely transformed the way I organize my reading list. The user interface is simple and intuitive, making it a joy to track my books. Highly recommend!"
       },
       {
         "id": 2,
-        "name": "Brightlight books",
-        "title": "Ubold Customer",
-        "image": "./assets/images/user-1.png",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+        "name": "Page Turners Inc.",
+        "title": "Library Enthusiast",
+        "image": "./assets/images/user-2.png",
+        "description": "I love how BookCheck keeps everything in one place. From managing my favorite titles to tracking my progress, it has all the features a book lover could ask for!"
       },
       {
         "id": 3,
-        "name": "Brightlight books",
-        "title": "Ubold Customer",
-        "image": "./assets/images/user-2.png",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+        "name": "Novel Ideas",
+        "title": "Happy Customer",
+        "image": "./assets/images/user-1.png",
+        "description": "With BookCheck, I can finally stay on top of my reading goals. The seamless experience and detailed analytics have made it a game-changer for me!"
       },
       {
         "id": 4,
-        "name": "Brightlight books",
-        "title": "Ubold Customer",
-        "image": "./assets/images/user-1.png",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+        "name": "Chapter One",
+        "title": "Book Club Member",
+        "image": "./assets/images/user-2.png",
+        "description": "Our book club uses BookCheck to coordinate our reads and share recommendations. It’s made our meetings so much more organized and enjoyable!"
       },
       {
         "id": 5,
-        "name": "Brightlight books",
-        "title": "Ubold Customer",
-        "image": "./assets/images/user-2.png",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor neque molestiae distinctio, voluptatum suscipit in, reiciendis, dolores enim optio corporis maxime impedit rerum iure illum quae iusto obcaecati quod laboriosam?"
+        "name": "Epic Tales",
+        "title": "Satisfied User",
+        "image": "./assets/images/user-1.png",
+        "description": "BookCheck isn’t just a tool, it’s a companion for every reader. The ability to explore new recommendations and keep my library updated is incredible. Highly satisfied!"
       }
     ]
   }

@@ -41,64 +41,54 @@ const Header = ({ header }) => {
             </Navbar.Toggle>
             <Navbar.Collapse id="navbarSupportedContent">
               <ul className="navbar-nav menu ms-lg-auto">
-                {header.menu?.map((data, i) =>
-                  data?.isDropdown === true ? (
-                    <li className="nav-item dropdown submenu" key={i}>
-                      <Link
-                        activeClass="active"
-                        className="nav-link scroll dropdown-toggle"
-                        to={`${data.link}`}
-                        spy={true}
-                        isDynamic={false}
-                        hashSpy={false}
-                        spyThrottle={500}
-                        smooth={true}
-                        duration={500}
-                        offset={-60}
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        {data.title}
-                        <span
-                          onClick={handleToggle}
-                          className="sub-menu-toggle"
-                        >
-                          <GoChevronDown />
-                        </span>
-                      </Link>
-                      <ul
-                        className={
-                          isActive ? "dropdown-menu show" : "dropdown-menu"
-                        }
-                      >
-                        {data.dropdownItem.map((item, i) => (
-                          <li key={i} className="nav-item">
-                            <PageLink to={item.link} className="nav-link">
-                              {item.title}
-                            </PageLink>
-                          </li>
-                        ))}
-                      </ul>
-                    </li>
-                  ) : (
-                    <li className="nav-item" key={i}>
-                      <Link
-                        activeClass="active"
-                        className="benefits nav-link"
-                        to={`${data.link}`}
-                        spy={true}
-                        isDynamic={false}
-                        hashSpy={false}
-                        spyThrottle={500}
-                        smooth={true}
-                        duration={500}
-                        offset={-60}
-                      >
-                        {data.title}
-                      </Link>
-                    </li>
-                  )
-                )}
+              {header.menu?.map((data, i) =>
+  data?.isDropdown === true ? (
+    <li className="nav-item dropdown submenu" key={i}>
+      <Link
+        activeClass="active"
+        className="nav-link scroll dropdown-toggle"
+        to={`${data.link}`}
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70} // Adjust for header height
+        spyThrottle={500}
+        hashSpy={false}
+      >
+        {data.title}
+        <span onClick={handleToggle} className="sub-menu-toggle">
+          <GoChevronDown />
+        </span>
+      </Link>
+      <ul className={isActive ? "dropdown-menu show" : "dropdown-menu"}>
+        {data.dropdownItem.map((item, i) => (
+          <li key={i} className="nav-item">
+            <PageLink to={item.link} className="nav-link">
+              {item.title}
+            </PageLink>
+          </li>
+        ))}
+      </ul>
+    </li>
+  ) : (
+    <li className="nav-item" key={i}>
+      <Link
+        activeClass="active"
+        className="benefits nav-link"
+        to={`${data.link}`}
+        spy={true}
+        smooth={true}
+        duration={500}
+        offset={-70} // Adjust for header height
+        spyThrottle={500}
+        hashSpy={false}
+      >
+        {data.title}
+      </Link>
+    </li>
+  )
+)}
+
               </ul>
             </Navbar.Collapse>
           </Navbar>
