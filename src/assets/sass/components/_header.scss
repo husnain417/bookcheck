@@ -28,12 +28,12 @@
     }
 
     .navbar-nav li a {
-      color: $color-dark;
+      color: $color-dark; 
     }
 
     .navbar-nav li a:hover,
     .navbar-nav li a.active {
-      color: $color-primary;
+      color:$color-primary;
       background: none;
     }
 

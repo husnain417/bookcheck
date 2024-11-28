@@ -18,6 +18,8 @@ import SingleBlog from "./components/pages/single-blog";
 import SingleEvent from "./components/pages/single-event";
 import footerData from "./data/footer.json";
 import headerData from "./data/header.json";
+import Products1 from "./components/pages/products1";
+
 <link
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
   rel="stylesheet"
@@ -51,6 +53,7 @@ function App() {
           <Route path="v4" element={<Version04 headerv2={headerv2} footer={footer} />} />
           <Route path="v5" element={<Version05 headerv2={headerv2} footer={footer} />} />
           <Route path="v6" element={<Version06 headerv2={headerv2} footer={footer} />} />
+          <Route path="/products" element={<Products1 header={header} footer={footer} />} />
           <Route
             path="single-blog"
             element={<SingleBlog headerv3={headerv3} footer={footer} />}

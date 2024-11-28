@@ -1,0 +1,229 @@
+/* CSS for layout */
+.products-page {
+    display: flex;
+    flex-direction: column;
+    padding: 95px 50px;
+    background-color: #F5EBE6;
+  }
+
+  .filters-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px !important;
+    padding: 10px;
+    margin-right: 15px;
+    margin-left: 15px;
+    justify-content: space-between;
+  }
+  
+  .filter-group {
+    display: flex;
+    gap: 10px; /* Reduced gap between filters */
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure filters wrap on smaller screens */
+  }
+  
+  .filter {
+    display: flex;
+    gap: 0.3rem;
+    align-items: center;
+    font-size: 12px; 
+    color: #142450;
+  }
+  
+  .filter label {
+    font-weight: bold;
+    margin-bottom: 2px; /* Reduced margin */
+    font-size: 12px; /* Smaller label text */
+  }
+  
+  .filter select {
+    padding: 3px 8px; /* Smaller padding */
+    font-size: 11px; /* Smaller font size */
+    border: 1px solid #142450;
+    border-radius: 5px;
+    width: 120px; /* Smaller width for dropdown */
+  }
+  
+/* Search Bar Styling */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #142450;
+    border-radius: 5px;
+    padding: 3px 8px;
+    width: 300px;
+    gap: 0.5rem;
+  }
+  
+  .search-bar input {
+    border: none;
+    outline: none;
+    font-size: 12px;
+    flex: 1;
+  }
+  
+  .search-bar input::placeholder {
+    color: #a0a0a0;
+  }
+  
+  .search-icon {
+    font-size: 16px;
+    color: #142450;
+  }
+  
+  
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+      .filters-section {
+        flex-direction: column;
+        
+  }
+
+  .search-bar {
+    order: -1;  
+    margin: 10px 0px;
+  }
+
+    .products-page {
+    padding: 150px 40px;
+    }
+
+    .filter-group {
+      gap: 10px; /* Reduce gap further */
+    }
+
+    .filter label {
+      font-size: 12px; /* Even smaller label text */
+    }
+
+    .filter label {
+        font-size: 10px; /* Smaller label text */
+      }
+      
+      .filter select {
+        padding: 3px 6px; /* Smaller padding */
+        width: 100px; /* Smaller width for dropdown */
+      }
+  }
+  
+  @media (max-width: 480px) {
+
+    .products-page {
+        padding: 130px 40px;
+    }
+
+    .filter-group {
+      flex-direction: row; /* Stack filters vertically */
+    }
+  }
+  
+  
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-right: 1px solid #ddd;
+  }
+  
+  .products-list {
+    flex: 1;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .product {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+
+  .cont {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+  }
+  
+  .wrap {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto; /* Center the image container */
+  }
+  
+  .wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This is the key property */
+    object-position: center; /* Center the image within the container */
+    border-bottom: 1px solid #ddd;
+    border-radius: 8px 8px 0 0;
+  }
+
+@media (max-width: 768px) {
+  .book-slide-container {
+    max-width: 100%; /* Adjust product size for tablets */
+    margin-bottom: 20px; /* Adds space between rows */
+  }
+
+  .book-image-wrapper img {
+    height: 300px; /* Smaller image height for smaller screens */
+    width: 100%; /* Ensures full width within container */
+  }
+
+  .book-title {
+    font-size: 1rem;
+  }
+
+  .book-price {
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .book-slide-container {
+    max-width: 100%; /* Full width for mobile devices */
+  }
+
+  .book-image-wrapper img {
+    height: 250px;
+    width: 100%;
+  }
+
+  button {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}

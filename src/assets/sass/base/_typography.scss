@@ -1,11 +1,22 @@
-// Heading font
+// Import Heading Fonts
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-// Body font
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:ital,wght@0,400;0,700&display=swap");
 
-// Font Family 
+// Import Body Fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;700&display=swap");
+
+// Font Family Variables
 $font-heading: "Philosopher", sans-serif;
+$font-heading-secondary: "Playfair Display", serif;
+$font-heading-alternate: "Roboto Slab", serif;
+
 $font-display: "Poppins", sans-serif;
+$font-body-secondary: "Open Sans", sans-serif;
+$font-body-alternate: "Quicksand", sans-serif;
+
 
 body {
   font-family: $font-display;
@@ -13,7 +24,7 @@ body {
   color: $color-gray;
 }
 p {
-  line-height: 1.8;
+  line-height: 1.8;  
 }
 
 h1,
@@ -22,7 +33,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $font-heading;
+  font-family: $font-body-secondary;
   color: $color-dark;
   font-weight: 700;
 }

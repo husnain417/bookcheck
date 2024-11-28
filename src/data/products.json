@@ -1,0 +1,225 @@
+{
+      "books": [
+        {
+          "id": "eng001",
+          "course": "Engineering",
+          "title": "Engineering Mechanics: Dynamics",
+          "author": "J.L. Meriam, L.G. Kraige",
+          "description": "A classic textbook offering a thorough understanding of engineering dynamics, with practical examples and problem-solving techniques.",
+          "price": 75.50,
+          "image": "/assets/images/book1.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "cs002",
+          "course": "Computer Science",
+          "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "author": "Robert C. Martin",
+          "description": "A guide to writing clean, maintainable code, focusing on best practices for software craftsmanship.",
+          "price": 50.99,
+          "image": "/assets/images/book2.jpg",
+          "category": "Second-Hand books",
+          "discount": 15
+        },
+        {
+          "id": "med003",
+          "course": "Medical Sciences",
+          "title": "Gray's Anatomy for Students",
+          "author": "Richard L. Drake, A. Wayne Vogl, Adam W. M. Mitchell",
+          "description": "A comprehensive anatomy textbook with illustrations and explanations designed for medical students.",
+          "price": 100.00,
+          "image": "/assets/images/book3.jpg",
+          "category": "New books",
+          "discount": 20
+        },
+        {
+          "id": "bus004",
+          "course": "Business Management",
+          "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+          "author": "Jim Collins",
+          "description": "An analysis of what makes some companies thrive, featuring key insights into leadership and strategic thinking.",
+          "price": 27.95,
+          "image": "/assets/images/book4.jpg",
+          "category": "New books",
+          "discount": 5
+        },
+        {
+          "id": "sci005",
+          "course": "Environmental Science",
+          "title": "Silent Spring",
+          "author": "Rachel Carson",
+          "description": "A groundbreaking book that sparked the modern environmental movement, addressing the dangers of pesticide use.",
+          "price": 16.99,
+          "image": "/assets/images/book5.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "eng001",
+          "course": "Engineering",
+          "title": "Engineering Mechanics: Dynamics",
+          "author": "J.L. Meriam, L.G. Kraige",
+          "description": "A classic textbook offering a thorough understanding of engineering dynamics, with practical examples and problem-solving techniques.",
+          "price": 75.50,
+          "image": "/assets/images/book1.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "cs002",
+          "course": "Computer Science",
+          "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "author": "Robert C. Martin",
+          "description": "A guide to writing clean, maintainable code, focusing on best practices for software craftsmanship.",
+          "price": 50.99,
+          "image": "/assets/images/book2.jpg",
+          "category": "Second-Hand books",
+          "discount": 15
+        },
+        {
+          "id": "med003",
+          "course": "Medical Sciences",
+          "title": "Gray's Anatomy for Students",
+          "author": "Richard L. Drake, A. Wayne Vogl, Adam W. M. Mitchell",
+          "description": "A comprehensive anatomy textbook with illustrations and explanations designed for medical students.",
+          "price": 100.00,
+          "image": "/assets/images/book3.jpg",
+          "category": "New books",
+          "discount": 20
+        },
+        {
+          "id": "bus004",
+          "course": "Business Management",
+          "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+          "author": "Jim Collins",
+          "description": "An analysis of what makes some companies thrive, featuring key insights into leadership and strategic thinking.",
+          "price": 27.95,
+          "image": "/assets/images/book4.jpg",
+          "category": "New books",
+          "discount": 5
+        },
+        {
+          "id": "sci005",
+          "course": "Environmental Science",
+          "title": "Silent Spring",
+          "author": "Rachel Carson",
+          "description": "A groundbreaking book that sparked the modern environmental movement, addressing the dangers of pesticide use.",
+          "price": 16.99,
+          "image": "/assets/images/book5.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "eng001",
+          "course": "Engineering",
+          "title": "Engineering Mechanics: Dynamics",
+          "author": "J.L. Meriam, L.G. Kraige",
+          "description": "A classic textbook offering a thorough understanding of engineering dynamics, with practical examples and problem-solving techniques.",
+          "price": 75.50,
+          "image": "/assets/images/book1.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "cs002",
+          "course": "Computer Science",
+          "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "author": "Robert C. Martin",
+          "description": "A guide to writing clean, maintainable code, focusing on best practices for software craftsmanship.",
+          "price": 50.99,
+          "image": "/assets/images/book2.jpg",
+          "category": "Second-Hand books",
+          "discount": 15
+        },
+        {
+          "id": "med003",
+          "course": "Medical Sciences",
+          "title": "Gray's Anatomy for Students",
+          "author": "Richard L. Drake, A. Wayne Vogl, Adam W. M. Mitchell",
+          "description": "A comprehensive anatomy textbook with illustrations and explanations designed for medical students.",
+          "price": 100.00,
+          "image": "/assets/images/book3.jpg",
+          "category": "New books",
+          "discount": 20
+        },
+        {
+          "id": "bus004",
+          "course": "Business Management",
+          "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+          "author": "Jim Collins",
+          "description": "An analysis of what makes some companies thrive, featuring key insights into leadership and strategic thinking.",
+          "price": 27.95,
+          "image": "/assets/images/book4.jpg",
+          "category": "New books",
+          "discount": 5
+        },
+        {
+          "id": "sci005",
+          "course": "Environmental Science",
+          "title": "Silent Spring",
+          "author": "Rachel Carson",
+          "description": "A groundbreaking book that sparked the modern environmental movement, addressing the dangers of pesticide use.",
+          "price": 16.99,
+          "image": "/assets/images/book5.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "eng001",
+          "course": "Engineering",
+          "title": "Engineering Mechanics: Dynamics",
+          "author": "J.L. Meriam, L.G. Kraige",
+          "description": "A classic textbook offering a thorough understanding of engineering dynamics, with practical examples and problem-solving techniques.",
+          "price": 75.50,
+          "image": "/assets/images/book1.jpg",
+          "category": "New books",
+          "discount": 10
+        },
+        {
+          "id": "cs002",
+          "course": "Computer Science",
+          "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+          "author": "Robert C. Martin",
+          "description": "A guide to writing clean, maintainable code, focusing on best practices for software craftsmanship.",
+          "price": 50.99,
+          "image": "/assets/images/book2.jpg",
+          "category": "Second-Hand books",
+          "discount": 15
+        },
+        {
+          "id": "med003",
+          "course": "Medical Sciences",
+          "title": "Gray's Anatomy for Students",
+          "author": "Richard L. Drake, A. Wayne Vogl, Adam W. M. Mitchell",
+          "description": "A comprehensive anatomy textbook with illustrations and explanations designed for medical students.",
+          "price": 100.00,
+          "image": "/assets/images/book3.jpg",
+          "category": "New books",
+          "discount": 20
+        },
+        {
+          "id": "bus004",
+          "course": "Business Management",
+          "title": "Good to Great: Why Some Companies Make the Leap... and Others Don't",
+          "author": "Jim Collins",
+          "description": "An analysis of what makes some companies thrive, featuring key insights into leadership and strategic thinking.",
+          "price": 27.95,
+          "image": "/assets/images/book4.jpg",
+          "category": "New books",
+          "discount": 5
+        },
+        {
+          "id": "sci005",
+          "course": "Environmental Science",
+          "title": "Silent Spring",
+          "author": "Rachel Carson",
+          "description": "A groundbreaking book that sparked the modern environmental movement, addressing the dangers of pesticide use.",
+          "price": 16.99,
+          "image": "/assets/images/book5.jpg",
+          "category": "New books",
+          "discount": 10
+        }
+      ]
+    }
+  
