@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from '../components/sidebar';
 import Productitem from './productitem';
+import Sidebar2 from './sidebar2';
 import booksData from '../data/products.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import '../assets/css/products.css';
 
 const Product = () => {
@@ -14,6 +17,13 @@ const Product = () => {
     'Environmental Science',
   ];
   const sortOptions = ['Low to High', 'High to Low'];
+    const universities = [
+    'Harvard University',
+    'Stanford University',
+    'MIT',
+    'Oxford University',
+    'Cambridge University',
+  ];
 
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
@@ -61,17 +71,25 @@ const Product = () => {
 
   return (
     <div className="products-page">
+      <Sidebar2/>
       <Sidebar
         courses={courses}
         categories={categories}
         sortOptions={sortOptions}
+        universities = {universities}
         onFilterChange={handleFilterChange}
       />
-      <div className="row">
-        <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
-          <div className="section-title-center text-center">
-            <h2 className="display-6">BOOKS</h2>
-          </div>
+      <div className='body'>
+      <div className="section-title-center text-center">
+        <div className="search-bar-container">
+          <input 
+            type="text" 
+            className="search-bar" 
+            placeholder="Search title, author, course or university" 
+          />
+          <button className="search-button">
+            <FontAwesomeIcon icon={faSearch} />
+          </button>
         </div>
       </div>
       <div className="products-list">
@@ -96,6 +114,7 @@ const Product = () => {
             Next
           </button>
         </div>
+      </div>
 
     </div>
   );

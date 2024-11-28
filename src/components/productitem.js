@@ -22,20 +22,23 @@ const Productitem = ({ products }) => {
   };
 
   useEffect(() => {
-    GLightbox({
-      selector: '.glightbox-book',
-      slideEffect: 'zoom',
+    const lightbox = GLightbox({
+      selector: ".glightbox-book",
+      slideEffect: "zoom",
       mobileConfig: {
         width: '100%',
         height: '100%',
         touchNavigation: true,
       },
     });
-  }, []);
+  
+    return () => lightbox.destroy(); // Cleanup old instance
+  }, [products]); // Reinitialize when products change
+  
 
   return (
     <div className="container">
-      <div className="row">
+      <div className="row .row2">
         {products.map((book, i) => (
           <div key={book.id} className="col-md-4 mb-4">
             <div className="book-slide-container cont">
@@ -49,11 +52,6 @@ const Productitem = ({ products }) => {
                     className="img-fluid book-image"
                     src={book.image}
                     alt={book.title}
-                    style={{
-                      objectFit: 'cover',
-                      height: '350px',
-                      width: '250px',
-                    }}
                   />
                 </a>
               </div>
