@@ -1,0 +1,32 @@
+{
+    "features": {
+        "title": "Key Features",
+        "subtitle": "Explore Our Highlights",
+        "featureItems": [
+            {
+                "title": "New Books",
+                "imgPath": "assets/images/newbook.jpg",
+                "btnText": "SEE LIST",
+                "description": "Discover brand-new books with institute-specific recommendations and secure checkout options."
+            },
+            {
+                "title": "Second-hand Books",
+                "imgPath": "assets/images/secondhand.jpg",
+                "btnText": "SEE LIST",
+                "description": "Affordable second-hand books with verified quality and secure checkout."
+            },
+            {
+                "title": "Institute-specific textbooks",
+                "imgPath": "assets/images/sat.jpg",
+                "btnText": "SEE LIST",
+                "description": "Curated textbooks tailored to your institute, available in both new and second-hand options."
+            },
+            {
+                "title": "Course related books",
+                "imgPath": "assets/images/book1.jpg",
+                "btnText": "SEE LIST",
+                "description": "Explore books customized for your courses, including new and second-hand options."
+            }
+        ]
+    }
+}

@@ -40,7 +40,7 @@ const Productitem = ({ products }) => {
     <div className="container">
       <div className="row .row2">
         {products.map((book, i) => (
-          <div key={book.id} className="col-md-4 mb-4">
+          <div key={book.id} className="bookitem">
             <div className="book-slide-container cont">
               <div className="book-image-wrapper wrap">
                 <a

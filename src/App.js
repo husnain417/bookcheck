@@ -7,6 +7,7 @@ import Version04 from "./components/pages/version-04";
 import Version05 from "./components/pages/version-05";
 import Version06 from "./components/pages/version-06";
 import Search from "./components/pages/search";
+import Productmain from "./components/pages/productmain";
 
 import AOS from "aos";
 import { useEffect } from "react";
@@ -54,7 +55,8 @@ function App() {
           <Route path="v4" element={<Version04 headerv2={headerv2} footer={footer} />} />
           <Route path="v5" element={<Version05 headerv2={headerv2} footer={footer} />} />
           <Route path="v6" element={<Version06 headerv2={headerv2} footer={footer} />} />
-          <Route path="/products" element={<Products1 header={header} footer={footer} />} />
+          <Route path="/products" element={<Productmain header={header} footer={footer} />} />
+          <Route path="/product1" element={<Products1 header={header} footer={footer} />} />
           <Route path="/search" element={<Search header={header} footer={footer} />} />
           <Route
             path="single-blog"

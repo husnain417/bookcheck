@@ -1,6 +1,6 @@
 .contain {
     margin: 0 auto;
-    padding: 105px 50px;
+    padding: 10px 50px;
     background-color: #F5EBE6;
     align-items: center;
   }
@@ -18,6 +18,7 @@
   
   .advanced-search-form .form-group {
     display: flex;
+    align-items: center; /* Aligns items vertically */
     gap: 2rem;
     margin-bottom: 15px;
   }
@@ -25,8 +26,74 @@
   .advanced-search-form label {
     font-weight: bold;
     margin-bottom: 5px;
-    display: block;
+    width: 150px; /* Consistent width for labels */
+    text-align: right; /* Optional: Align text to the right */
   }
+  
+  .advanced-search-form .form-control,
+  .advanced-search-form .date {
+    flex: 1; /* Input fields take remaining space */
+  }
+
+  .advanced-search-form .form-check {
+    display: flex;
+    align-items: center; /* Aligns radio button and label vertically */
+    gap: 5px; /* Adds spacing between the radio button and its label */
+  }
+  
+  .advanced-search-form .form-check-label {
+    width: 50px !important;
+    flex: none; 
+    margin-bottom: 0; /* Removes any unwanted margin */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  
+  .d-flex .form-control {
+    width: auto; /* Ensure these inputs don't break alignment */
+  }
+
+  .d-flex {
+    display: flex !important;
+    gap: 10px !important;
+    flex-wrap: wrap !important; /* Allows wrapping of elements */
+  }
+  
+  @media (max-width: 500px) {
+    .form {
+      width: 330px;
+    }
+  
+    .d-flex {
+      flex-wrap: wrap; /* Ensure inputs stack vertically if needed */
+      gap: 5px; /* Reduce gap on smaller screens */
+    }
+  
+    .form-control {
+      flex: 1 1 100%; /* Make inputs take full width if they wrap */
+    }
+  
+    .date {
+      width: 100%; /* Ensure date inputs scale correctly */
+    }
+  
+    .form-check-label {
+      font-size: 10px;
+    }
+  }
+  
+  
+  
+  @media (max-width: 700px) {
+    .advanced-search-form .form-group {
+      flex-direction: column; /* Stack labels and inputs vertically */
+      align-items: flex-start;
+    }
+    .advanced-search-form label {
+      text-align: left; /* Align text left for smaller screens */
+      margin-bottom: 5px; /* Add spacing below the label */
+    }
+  }
+  
   
   .advanced-search-form .form-control {
     border: 1px solid #ccc;
@@ -51,7 +118,7 @@
   @media (max-width: 1000px) {
     .contain {
         margin: 0 auto;
-        padding: 150px 40px;
+        padding: 10px 0px;
       }
     }    
 
@@ -101,3 +168,49 @@
             width: 1000px;
         }
     }
+
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #FFFFFF;
+      padding: 50px;
+      text-align: center;
+      gap: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .info-item {
+      background-color: #F5EBE6;
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .info-icon {
+      font-size: 2rem;
+      color: #FF6F61; /* Accent color for icons */
+      margin-bottom: 0.5rem;
+    }
+    
+    .info h4 {
+      margin-top: 0.5rem;
+      font-size: 1.25rem;
+      color: #333333;
+    }
+    
+    .info p {
+      font-size: 1rem;
+      color: #555555;
+    }
+    
+    /* Responsive Styling */
+    @media (min-width: 600px) {
+      .info {
+        flex-direction: row;
+      }
+    }
+    

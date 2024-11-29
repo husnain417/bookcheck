@@ -44,7 +44,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.author}
             onChange={handleChange}
-            placeholder="Enter author's name"
           />
         </div>
         <div className="form-group">
@@ -55,7 +54,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.title}
             onChange={handleChange}
-            placeholder="Enter book title"
           />
         </div>
         <div className="form-group">
@@ -66,7 +64,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.isbn}
             onChange={handleChange}
-            placeholder="Enter ISBN number"
           />
         </div>
         <div className="form-group">
@@ -77,7 +74,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.keywords}
             onChange={handleChange}
-            placeholder="Enter keywords"
           />
         </div>
         <div className="form-group">
@@ -88,7 +84,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.publisher}
             onChange={handleChange}
-            placeholder="Enter publisher name"
           />
         </div>
         <div className="form-group">
@@ -177,7 +172,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.course}
             onChange={handleChange}
-            placeholder="Enter course name"
           />
         </div>
         <div className="form-group">
@@ -188,7 +182,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.semester}
             onChange={handleChange}
-            placeholder="Enter semester"
           />
         </div>
         <div className="form-group">
@@ -199,7 +192,6 @@ const AdvancedSearch = () => {
             className="form-control"
             value={searchParams.university}
             onChange={handleChange}
-            placeholder="Enter university name"
           />
         </div>
         <div className="form-group text-center">
