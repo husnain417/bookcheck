@@ -2,6 +2,7 @@ import React from "react";
 import Footer from "../global/footer";
 import Header from "../global/header";
 import Product from "../product";
+import Breadcrumbs from "../breadcrumbs";
 
 const Products1 = ({header, footer}) => {
   const {menu} = footer;
@@ -9,6 +10,7 @@ const Products1 = ({header, footer}) => {
   return (
     <>
      <Header header={header} />
+     {/* <Breadcrumbs isBg="yes" title="Products" /> */}
      <Product />
       <Footer  isBg="" menu={menu} />
     </>

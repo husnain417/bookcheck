@@ -30,12 +30,22 @@ const Productitem = ({ products }) => {
         height: '100%',
         touchNavigation: true,
       },
+      // Add this callback to prevent event propagation
+      onOpen: (instance, targetElement) => {
+        if (targetElement) {
+          const addToCartButtons = targetElement.querySelectorAll('.btn-add-to-cart');
+          addToCartButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+              e.stopPropagation(); 
+            });
+          });
+        }
+        }
     });
   
     return () => lightbox.destroy(); // Cleanup old instance
-  }, [products]); // Reinitialize when products change
+  }, [products]);
   
-
   return (
     <div className="container">
       <div className="row .row2">
@@ -85,14 +95,6 @@ const Productitem = ({ products }) => {
                         <p>
                           <strong>Discounted Price:</strong> ${(book.price * (1 - book.discount / 100)).toFixed(2)}
                         </p>
-                      </div>
-                      <div className="text-center">
-                        <button 
-                          className="btn btn-primary"
-                          onClick={() => addToCart(book)}
-                        >
-                          Add to Cart
-                        </button>
                       </div>
                     </div>
             </div>

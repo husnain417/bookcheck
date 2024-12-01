@@ -9,7 +9,10 @@ const Services = ({ isBg }) => {
 
   return (
     // <!-- ========== Features section start ========== -->
-    <section className="features">
+    <section className="features"
+    data-aos="fade-up"
+    data-aos-duration="1000"
+    data-aos-delay="600">
       <div className="feature">
         <div className="feature-icon">
           <FontAwesomeIcon icon={faTruck} />

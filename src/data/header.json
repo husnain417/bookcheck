@@ -4,10 +4,9 @@
       { "link": "/#home", "title": "Home" },
       { "link": "/products", "title": "Products" },
       { "link": "/search", "title": "Search" },
-      { "link": "/#blog", "title": "Blog" },
+      { "link": "/all-blog", "title": "Blog" },
       { "link": "/#contact", "title": "Contact" },
-      { "link": "/cart", "title": "Cart & Checkout" },
-      { "link": "/account", "title": "Account" }
+      { "link": "/cart", "title": "Cart & Checkout" }
     ]
   }
 }

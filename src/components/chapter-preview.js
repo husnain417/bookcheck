@@ -1,36 +1,19 @@
 import GLightbox from "glightbox";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useContext } from "react";
 import { Autoplay, Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/autoplay";
 import "swiper/css/pagination";
 import { Swiper, SwiperSlide } from "swiper/react";
 import data from "../data/chapterPreview.json";
+import { CartContext } from '../components/CartContext';
 import '../assets/css/books.css';
 
 
 const ChapterPreview = ({ isBg }) => {
   const { featuredBooks } = data;
   const [cartItems, setCartItems] = useState([]);
-
-  const addToCart = (book) => {
-    setCartItems(prevItems => {
-      // Check if book is already in cart
-      const existingItem = prevItems.find(item => item.id === book.id);
-      if (existingItem) {
-        return prevItems.map(item => 
-          item.id === book.id 
-            ? {...item, quantity: item.quantity + 1} 
-            : item
-        );
-      }
-      // Add new book to cart
-      return [...prevItems, {...book, quantity: 1}];
-    });
-    
-    // Optional: Add a visual feedback or toast notification
-    alert(`${book.title} added to cart!`);
-  };
+  const { addToCart } = useContext(CartContext);
 
   useEffect(() => {
     GLightbox({
@@ -53,13 +36,25 @@ const ChapterPreview = ({ isBg }) => {
     >
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
-            <div className="section-title-center text-center">
-              <span>{featuredBooks.title}</span>
-              <h2 className="display-6">{featuredBooks.subtitle}</h2>
-              <div className="section-divider divider-traingle"></div>
+        <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+              <div className="section-title-center text-center">
+              <span 
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="500">
+                  {featuredBooks.subtitle}
+                  </span>
+                  <h2 className="display-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="550">
+                  {featuredBooks.title}
+                  </h2>
+                  <div className="section-divider divider-traingle" data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="550"></div>
+              </div>
             </div>
-          </div>
         </div>
 
         <div className="row testi-row">
@@ -132,14 +127,6 @@ const ChapterPreview = ({ isBg }) => {
                         <p>
                           <strong>Discounted Price:</strong> ${(book.price * (1 - book.discount / 100)).toFixed(2)}
                         </p>
-                      </div>
-                      <div className="text-center">
-                        <button 
-                          className="btn btn-primary"
-                          onClick={() => addToCart(book)}
-                        >
-                          Add to Cart
-                        </button>
                       </div>
                     </div>
                   </div>

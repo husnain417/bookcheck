@@ -5,6 +5,7 @@ import AdvancedSearch from "../advancedsearch";
 import "../../assets/css/search.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faBookOpen, faBarcode } from '@fortawesome/free-solid-svg-icons';
+import Breadcrumbs from "../breadcrumbs";
 
 const Search = ({ header, footer }) => {
   const { menu } = footer;
@@ -12,18 +13,34 @@ const Search = ({ header, footer }) => {
   return (
     <>
       <Header header={header} />
+      {/* <Breadcrumbs isBg="yes" title="Products" /> */}
+
       <div className="productmain">
         <div className="productmain-cont">
           <div className="row">
             <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
               <div className="section-title-center text-center">
-                <span>Books</span>
-                <h2 className="display-6">Search</h2>
-                <div className="section-divider divider-traingle"></div>
+              <span 
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600">
+                  Books
+                  </span>
+                  <h2 className="display-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="650">
+                  Textbooks
+                  </h2>
+                  <div className="section-divider divider-traingle" data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="650"></div>
               </div>
             </div>
           </div>
-          <p>
+          <p data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="700">
             Find new and used textbooks for your college courses with ease. Browse thousands of options, from academic journals to classic literature, tailored for students and professionals. Use the ISBN feature to pinpoint the exact edition you need.
           </p>
         </div>

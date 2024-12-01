@@ -3,6 +3,7 @@ import Footer from "../global/footer";
 import Header from "../global/header";
 import Categories from "../categories";
 
+
 const Productmain = ({header, footer}) => {
   const {menu} = footer;
 
@@ -12,15 +13,29 @@ const Productmain = ({header, footer}) => {
     <div className="productmain">
        <div className="productmain-cont">
         <div className="row">
-        <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
+        <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1" >
             <div className="section-title-center text-center">
-            <span>Books</span>
-            <h2 className="display-6">Textbooks</h2>
-            <div className="section-divider divider-traingle"></div>
+              <span 
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="600">
+                  Books
+                  </span>
+              <h2 className="display-6"
+                data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="650">
+                  Textbooks
+                  </h2>
+              <div className="section-divider divider-traingle" data-aos="fade-up"
+                data-aos-duration="1000"
+                data-aos-delay="650"></div>
             </div>
         </div>
         </div>
-        <p>Explore our wide collection of textbooks, including reference books, study guides, key texts, academic journals, test prep materials, and classic literature. Whether you're delving into biology, calculus, or law, we offer affordable options for students and academics alike. Ensure you get the right edition by searching with the book’s ISBN.</p>
+        <p data-aos="fade-up"
+              data-aos-duration="1000"
+              data-aos-delay="700">Explore our wide collection of textbooks, including reference books, study guides, key texts, academic journals, test prep materials, and classic literature. Whether you're delving into biology, calculus, or law, we offer affordable options for students and academics alike. Ensure you get the right edition by searching with the book’s ISBN.</p>
       </div>
       <Categories isBg=""/>
       <div className="content-foot">

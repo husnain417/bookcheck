@@ -64,10 +64,10 @@ function App() {
             <Route path="/cart" element={<Cart header={header} footer={footer} />} />
 
           <Route
-            path="single-blog"
-            element={<SingleBlog headerv3={headerv3} footer={footer} />}
+            path="/single-blog"
+            element={<SingleBlog headerv3={header} footer={footer} />}
           />
-          <Route path="all-blog" element={<AllBlog headerv3={headerv3} footer={footer} />} />
+          <Route path="/all-blog" element={<AllBlog headerv3={header} footer={footer} />} />
           <Route
             path="single-event"
             element={<SingleEvent headerv3={headerv3} footer={footer} />}

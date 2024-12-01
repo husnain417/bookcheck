@@ -5,7 +5,7 @@ import Breadcrumbs from "../breadcrumbs";
 import AllBlogs from "../all-blogs";
 
 const AllBlog = ({ headerv3, footer }) => {
-  const { menuv3 } = footer;
+  const { menu } = footer;
 
 
   return (
@@ -13,7 +13,7 @@ const AllBlog = ({ headerv3, footer }) => {
       <Header header={headerv3} />
       <Breadcrumbs isBg="yes" title="All blog" />
       <AllBlogs isBg="" />
-      <Footer isBg="yes" menu={menuv3} />
+      <Footer isBg="yes" menu={menu} />
     </>
   );
 };

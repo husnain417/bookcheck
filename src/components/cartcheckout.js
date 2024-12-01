@@ -8,10 +8,9 @@ const Cartcheckout = () => {
   const { cartItems, addToCart, removeFromCart } = useContext(CartContext);
 
   const handleIncreaseQuantity = (item) => { 
-    // Create a new object with the updated quantity
     addToCart({
       ...item, 
-      quantity: 1  // Always add 1 to the existing quantity
+      quantity: 1 
     }); 
   }; 
 

@@ -4,6 +4,7 @@ import Header from "../global/header";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGlobe, faBookOpen, faBarcode } from '@fortawesome/free-solid-svg-icons';
 import Cartcheckout from "../cartcheckout";
+import Breadcrumbs from "../breadcrumbs";
 
 const Cart = ({ header, footer }) => {
   const { menu } = footer;

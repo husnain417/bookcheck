@@ -14,7 +14,7 @@ export const CartProvider = ({ children }) => {
     localStorage.setItem('cart', JSON.stringify(cartItems));
   }, [cartItems]);
 
-  const addToCart = (product) => {
+  const addToCart = (product, isNewAddition = true) => {
     setCartItems((prevItems) => {
       const existingItem = prevItems.find((item) => item.id === product.id);
       
@@ -28,10 +28,12 @@ export const CartProvider = ({ children }) => {
             : item
         );
       }
+      if (isNewAddition) {
+        alert(`${product.title} has been added to the cart!`);
+      }
       
       return [...prevItems, { ...product, quantity: product.quantity || 1 }];
     });
-    alert(`${product.title} has been added to the cart!`);
   };
 
   const removeFromCart = (productId) => {
