@@ -22,24 +22,28 @@ const Testimonial = ({ isBg }) => {
       <div className="container">
         <div className="row">
         <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
-              <div className="section-title-center text-center">
-              <span 
+            <div className="section-title-center text-center">
+              <span
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="700">
-                  {testimonial.subtitle}
-                  </span>
-                  <h2 className="display-6"
+                data-aos-delay="150"
+              >{testimonial.title}</span>
+              <h2
+                className="display-6"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="750">
-                  {testimonial.title}
-                  </h2>
-                  <div className="section-divider divider-traingle" data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                {testimonial.subtitle}
+              </h2>
+              <div
+                className="section-divider divider-traingle"
+                data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="650"></div>
-              </div>
+                data-aos-delay="250"
+              ></div>
             </div>
+          </div>
         </div>
         <div className="row testi-row">
           <div className="col-12">

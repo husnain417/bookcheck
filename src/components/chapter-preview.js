@@ -37,24 +37,28 @@ const ChapterPreview = ({ isBg }) => {
       <div className="container">
         <div className="row">
         <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
-              <div className="section-title-center text-center">
-              <span 
+            <div className="section-title-center text-center">
+              <span
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="500">
-                  {featuredBooks.subtitle}
-                  </span>
-                  <h2 className="display-6"
+                data-aos-delay="150"
+              >{featuredBooks.title}</span>
+              <h2
+                className="display-6"
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="550">
-                  {featuredBooks.title}
-                  </h2>
-                  <div className="section-divider divider-traingle" data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                {featuredBooks.subtitle}
+              </h2>
+              <div
+                className="section-divider divider-traingle"
+                data-aos="fade-up"
                 data-aos-duration="1000"
-                data-aos-delay="550"></div>
-              </div>
+                data-aos-delay="250"
+              ></div>
             </div>
+          </div>
         </div>
 
         <div className="row testi-row">
