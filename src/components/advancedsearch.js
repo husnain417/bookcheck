@@ -34,7 +34,8 @@ const AdvancedSearch = () => {
   return (
     <div className="contain">
       <div className="form">
-      <h2 className="text-center mb-4">Advanced Book Search</h2>
+      <h3 className="text-center mb-4">Advanced Book Search</h3>
+      <p>Enter at least one of author, title, ISBN, keyword, or publisher to search.</p>
       <form onSubmit={handleSearch} className="advanced-search-form">
         <div className="form-group">
           <label>Author</label>
@@ -67,16 +68,6 @@ const AdvancedSearch = () => {
           />
         </div>
         <div className="form-group">
-          <label>Keywords</label>
-          <input
-            type="text"
-            name="keywords"
-            className="form-control"
-            value={searchParams.keywords}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
           <label>Publisher</label>
           <input
             type="text"
@@ -104,6 +95,53 @@ const AdvancedSearch = () => {
               onChange={handleChange}
             />
           </div>
+        </div>
+        <div class="divider">
+          <span>OR</span>
+        </div>
+        <div className="form-group formgr">
+          <label>Course</label>
+          <input
+            type="text"
+            name="course"
+            className="form-control"
+            value={searchParams.course}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="form-group">
+          <label>Semester</label>
+          <input
+            type="text"
+            name="semester"
+            className="form-control"
+            value={searchParams.semester}
+            onChange={handleChange}
+          />
+        </div>
+        <div className="form-group">
+          <label>University</label>
+          <input
+            type="text"
+            name="university"
+            className="form-control"
+            value={searchParams.university}
+            onChange={handleChange}
+          />
+        </div>
+        <div class="divider">
+          <span>OR</span>
+        </div>
+        <h5>Filters</h5>
+        <div className="form-group">
+          <label>Keywords</label>
+          <input
+            type="text"
+            name="keywords"
+            className="form-control"
+            value={searchParams.keywords}
+            onChange={handleChange}
+          />
         </div>
         <div className="form-group">
           <label>Price (£)</label>
@@ -163,36 +201,6 @@ const AdvancedSearch = () => {
               <label className="form-check-label">Used</label>
             </div>
           </div>
-        </div>
-        <div className="form-group">
-          <label>Course</label>
-          <input
-            type="text"
-            name="course"
-            className="form-control"
-            value={searchParams.course}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label>Semester</label>
-          <input
-            type="text"
-            name="semester"
-            className="form-control"
-            value={searchParams.semester}
-            onChange={handleChange}
-          />
-        </div>
-        <div className="form-group">
-          <label>University</label>
-          <input
-            type="text"
-            name="university"
-            className="form-control"
-            value={searchParams.university}
-            onChange={handleChange}
-          />
         </div>
         <div className="form-group text-center">
           <button type="submit" className="searchbtn mt-4">

@@ -8,6 +8,8 @@ import Version05 from "./components/pages/version-05";
 import Version06 from "./components/pages/version-06";
 import Search from "./components/pages/search";
 import Productmain from "./components/pages/productmain";
+import Cart from "./components/pages/cart";
+import { CartProvider } from "./components/CartContext";
 
 import AOS from "aos";
 import { useEffect } from "react";
@@ -47,6 +49,7 @@ function App() {
       <div id="preLoader"></div>
       <BrowserRouter>
         <ScrollToTop/>
+        <CartProvider>
         <Routes>
           <Route path="/" element={<Version01 header={header} footer={footer} />} />
           <Route path="v1" element={<Version01 header={header} footer={footer} />} />
@@ -55,9 +58,11 @@ function App() {
           <Route path="v4" element={<Version04 headerv2={headerv2} footer={footer} />} />
           <Route path="v5" element={<Version05 headerv2={headerv2} footer={footer} />} />
           <Route path="v6" element={<Version06 headerv2={headerv2} footer={footer} />} />
-          <Route path="/products" element={<Productmain header={header} footer={footer} />} />
-          <Route path="/product1" element={<Products1 header={header} footer={footer} />} />
-          <Route path="/search" element={<Search header={header} footer={footer} />} />
+            <Route path="/products" element={<Productmain header={header} footer={footer} />} />
+            <Route path="/product1" element={<Products1 header={header} footer={footer} />} />
+            <Route path="/search" element={<Search header={header} footer={footer} />} />
+            <Route path="/cart" element={<Cart header={header} footer={footer} />} />
+
           <Route
             path="single-blog"
             element={<SingleBlog headerv3={headerv3} footer={footer} />}
@@ -77,6 +82,7 @@ function App() {
             element={<BlogLeftSidebar headerv3={headerv3} footer={footer} />}
           />
         </Routes>
+        </CartProvider>
       </BrowserRouter>
     </div>
   );

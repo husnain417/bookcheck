@@ -1,19 +1,28 @@
 import { default as React, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Navbar } from "react-bootstrap";
-import { Link as PageLink, useNavigate } from "react-router-dom";
-import { Link, scroller } from "react-scroll";
+import { GoChevronDown } from "react-icons/go";
+import { Link as PageLink } from "react-router-dom";
+import { Link } from "react-scroll";
 import { siteLogo } from "../../global";
-import logo from "../../assets/Logo Kit/1x/Asset 2.png";
-import "../../assets/css/header.css";
-
+import logo from '../../assets/Logo Kit/1x/Asset 2.png';
+import { scroller } from "react-scroll";
+import '../../assets/css/header.css'
 
 const Header = ({ header }) => {
-  const [fix, setFix] = useState(false);
   const navigate = useNavigate();
 
-  // Toggle fixed navbar on scroll
+  const [isActive, setActive] = useState(false);
+  const [fix, setFix] = useState(false);
+  const handleToggle = () => {
+    setActive(!isActive);
+  };
   function setFixed() {
-    setFix(window.scrollY >= 100);
+    if (window.scrollY >= 100) {
+      setFix(true);
+    } else {
+      setFix(false);
+    }
   }
   window.addEventListener("scroll", setFixed);
 
@@ -36,12 +45,21 @@ const Header = ({ header }) => {
   return (
     <header className={fix ? "header navbar_fixed" : "header"}>
       <div className="container">
-        <Navbar bg="none" expand="lg">
-          <a className="navbar-brand" href="/">
-            <img src={logo} alt={siteLogo.alt} />
-          </a>
-          <Navbar.Toggle aria-controls="navbarSupportedContent" />
-          <Navbar.Collapse id="navbarSupportedContent">
+        <div className="row">
+          <Navbar bg="none" expand="lg">
+            <a className="navbar-brand" href="/">
+              {/* <!-- <h1 className="m-0">BOOKCHECK</h1> --> */}
+              <img src={logo} alt={siteLogo.alt} />
+            </a>
+            <Navbar.Toggle aria-controls="navbarSupportedContent">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </Navbar.Toggle>
+            <Navbar.Collapse id="navbarSupportedContent">
             <ul className="navbar-nav menu ms-lg-auto">
               {header.menu?.map((data, i) => (
                 <li className="nav-item" key={i}>
@@ -62,8 +80,9 @@ const Header = ({ header }) => {
                 </li>
               ))}
             </ul>
-          </Navbar.Collapse>
-        </Navbar>
+            </Navbar.Collapse>
+          </Navbar>
+        </div>
       </div>
     </header>
   );

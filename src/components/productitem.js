@@ -1,25 +1,25 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState,useContext  } from 'react';
 import GLightbox from 'glightbox';
-import '../assets/css/products.css';
+import { CartContext } from '../components/CartContext';
 
 const Productitem = ({ products }) => {
-  const [cartItems, setCartItems] = useState([]);
+  const { addToCart } = useContext(CartContext);
 
-  const addToCart = (book) => {
-    setCartItems((prevItems) => {
-      const existingItem = prevItems.find((item) => item.id === book.id);
-      if (existingItem) {
-        return prevItems.map((item) =>
-          item.id === book.id
-            ? { ...item, quantity: item.quantity + 1 }
-            : item
-        );
-      }
-      return [...prevItems, { ...book, quantity: 1 }];
-    });
+  // const addToCart = (book) => {
+  //   setCartItems((prevItems) => {
+  //     const existingItem = prevItems.find((item) => item.id === book.id);
+  //     if (existingItem) {
+  //       return prevItems.map((item) =>
+  //         item.id === book.id
+  //           ? { ...item, quantity: item.quantity + 1 }
+  //           : item
+  //       );
+  //     }
+  //     return [...prevItems, { ...book, quantity: 1 }];
+  //   });
 
-    alert(`${book.title} added to cart!`);
-  };
+  //   alert(`${book.title} added to cart!`);
+  // };
 
   useEffect(() => {
     const lightbox = GLightbox({

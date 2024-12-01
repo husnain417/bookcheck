@@ -14,8 +14,7 @@
     border-radius: 8px; /* Optional: Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow */
   }
-  
-  
+
   .advanced-search-form .form-group {
     display: flex;
     align-items: center; /* Aligns items vertically */
@@ -212,5 +211,25 @@
       .info {
         flex-direction: row;
       }
+    }
+    
+    .divider {
+      display: flex;
+      align-items: center;
+      text-align: center;
+      margin: 20px 0;
+    }
+    
+    .divider::before,
+    .divider::after {
+      content: "";
+      flex: 1;
+      border-bottom: 1px solid #ccc;
+      margin: 0 10px;
+    }
+    
+    .divider span {
+      font-size: 14px;
+      color: #666;
     }
     
