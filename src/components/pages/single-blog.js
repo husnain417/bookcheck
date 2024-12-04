@@ -12,7 +12,7 @@ const SingleBlog = ({ headerv3, footer}) => {
   return (
     <>
       <Header header={headerv3} />
-      <Breadcrumbs isBg="yes" title="Single Blog" />
+      <Breadcrumbs isBg="yes" title="Blog" />
       <SingleBlogs isBg=""/>
       <Footer isBg="yes" menu={menuv3} />
     </>
