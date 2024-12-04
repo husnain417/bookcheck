@@ -20,6 +20,7 @@ import Cta from "../cta";
 import Services from "../services"
 import Searchcards from "../searchcards";
 import Aboutus from "../aboutus";
+import Cards from "../cards";
 
 const Version01 = ({header, footer}) => {
   const {menu} = footer;
@@ -32,7 +33,7 @@ const Version01 = ({header, footer}) => {
       <Chapter isBg="yes" /> */}
       <Pricing isBg="" />
       <ChapterPreview isBg="yes" />
-      <Searchcards />
+      <Cards />
       <Gallery isBg="" />
       <Services isBg="" />
       <Aboutus />

@@ -31,8 +31,10 @@ const AllBlogs = ({ isBg }) => {
                 <div className="blog__single-post__body">
                   <div className="blog__single-post__content">
                     <h2 className="fs-4">
+                    <Link to={`/single-blog`} state={{ blogData: data }}>
                       {data.title}
-                    </h2>
+                    </Link>                    
+                   </h2>
                     <p className="m-0">{data.description}</p>
                   </div>
                   <div className="blog__single-post__meta">

@@ -11,7 +11,8 @@
   .cart {
     width: 100%;
     max-width: 900px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
+    margin-top: 19px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
@@ -160,7 +161,6 @@
   
     .cart {
       max-width: 100%;
-      margin-bottom: 30px;
     }
   
     .cart-item-details {
