@@ -40,8 +40,14 @@
     width: 50%;
     margin-right: 50px !important;
     position: relative;
+    margin-right: 3rem !important;
   }
   
+  @media (min-width: 1500px) {
+    .hero-right {
+      margin-right: 6rem !important;
+    }
+  }
   .hero-image {
     width: 100%;
     height: 100%;
