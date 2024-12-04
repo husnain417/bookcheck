@@ -35,7 +35,11 @@ const Cartcheckout = () => {
 
   return (
     <div className="cart-main">
-      <div className="cart">
+      <div className="cart"             
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-delay="200"
+            >
         <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
           <div className="section-title-center text-center">
             <span>
@@ -89,7 +93,10 @@ const Cartcheckout = () => {
           </ul>
         )}
       </div>
-      <div className="checkout-summary">
+      <div className="checkout-summary"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                  data-aos-delay="200">
         <div className="total-items">
           <span>Total Items:</span>
           <span>{totalItems}</span>

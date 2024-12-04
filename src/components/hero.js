@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import formdatahero from '../data/formdatahero.json';
 import '../assets/css/hero.css';
+import data from "../data/hero.json";
 
 function CourseSearchForm() {
   const [course, setCourse] = useState('');
@@ -130,4 +131,53 @@ function CourseSearchForm() {
   );
 }
 
-export default CourseSearchForm;
+const Hero = ({ isBg }) => {
+  const { herov1 } = data;
+  
+  return (
+    <section 
+      id="hero" 
+      className={`hero hero__padding overflow-hidden position-relative ${
+        isBg === "yes" ? "bg-one" : ""
+      } hero-section`}
+    >
+      <div className="circle x1"></div>
+      <div className="circle x2"></div>
+      <div className="circle x3"></div>
+      <div className="circle x4"></div>
+      <div className="circle x5"></div>
+
+
+      <div className="hero-left">
+      <div className="badge-text mb-2 text-uppercase">
+        {herov1.subtitle}
+      </div>
+        <CourseSearchForm />
+      </div>
+
+      <div className="hero-right">
+        <img 
+          src={herov1.image}
+          alt="Books" 
+          className="hero-image"
+        />
+        <div className="hero-overlay" />
+        <div className="hero-text">
+          <h1 className="hero-title">
+            Compare Prices,
+            <br />
+            Explore Options,
+            <br />
+            And Buy Books
+            <br />
+            Tailored To Your Course
+            <br />
+            And Institution
+          </h1>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Hero;
