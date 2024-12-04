@@ -1,37 +1,57 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGlobe, faBookOpen, faBarcode } from '@fortawesome/free-solid-svg-icons';
+import React,{useContext} from "react";
 import "../assets/css/search.css";
+import bookdata from '../data/products.json';
+import { CartContext } from '../components/CartContext';
 
-const Searchcards = () => {
+const Searchcards = ({ data }) => {
+  const { addToCart } = useContext(CartContext);
+  const validValues = data ? Object.values(data).filter((value) => value) : [];
+  const books = bookdata.books;
+
   return (
-        <div className="info">
-        <div className="info-item">
-          <FontAwesomeIcon icon={faGlobe} className="info-icon" />
-          <h4>International Editions</h4>
-          <p>
-            Looking for cheap textbooks? Consider international editions - textbooks that have been published outside the US.
-            These books are usually significantly cheaper than textbooks published in the US.
-          </p>
+    <div className="info">
+      {/* Heading for search results */}
+      <h5 className="info-title">
+        {validValues.length > 0 ? (
+          <>
+            <span className="info-label">Results for:</span>
+            <span className="info-query"> "{validValues.join(", ")}"</span>
+          </>
+        ) : (
+          "All Available Books"
+        )}
+      </h5>
+
+      {books.map((book) => (
+        <div key={book.id} className="card-container">
+          <div className="card-left">
+            <div className="image-placeholder">
+              <img
+                src={book.image}
+                alt={book.title}
+              />
+            </div>
+          </div>
+          <div className="card-right">
+            <h4 className="product-title">{book.title}</h4>
+            <p className="product-description">{book.description}</p>
+            <div className="book-info">
+              <p className="author">Author: {book.author}</p>
+              <p className="book">Course: {book.course}</p>
+            </div>
+            <p className="product-isbn">Category: {book.category}</p>
+            <p className="product-price">
+              <span className="original-price">${book.price.toFixed(2)}</span>{" "}
+              <span className="discounted-price">
+                ${(book.price * (1 - book.discount / 100)).toFixed(2)}
+              </span>
+            </p>
+            <button className="button btn1"  onClick={() => addToCart(book)}>Add to Cart</button>
+          </div>
         </div>
-        <div className="info-item">
-          <FontAwesomeIcon icon={faBookOpen} className="info-icon" />
-          <h4>Used Books vs. New Books</h4>
-          <p>
-            Wondering whether to buy a used book or a new one? Used books are often more affordable and environmentally friendly,
-            while new books come in pristine condition with no prior markings. Choose based on your preference and budget.
-          </p>
-        </div>
-        <div className="info-item">
-          <FontAwesomeIcon icon={faBarcode} className="info-icon" />
-          <h4>What is an ISBN?</h4>
-          <p>
-            ISBNs are useful when looking for specific books such as the latest edition of a book on your reading list.
-            It stands for International Standard Book Number. This 10 or 13-digit number identifies the edition.
-          </p>
-        </div>
-      </div>
-      )
-}
+      ))}
+    </div>
+  );
+};
 
 export default Searchcards;

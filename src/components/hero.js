@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import formdatahero from '../data/formdatahero.json';
 import '../assets/css/hero.css';
+import { useNavigate } from 'react-router-dom'; 
 import data from "../data/hero.json";
 
 function CourseSearchForm() {
@@ -11,6 +12,8 @@ function CourseSearchForm() {
   const [faculty, setFaculty] = useState('');
   const [degreeProgram, setDegreeProgram] = useState('');
   const [error, setError] = useState('');
+
+  const navigate = useNavigate(); 
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -23,8 +26,17 @@ function CourseSearchForm() {
 
     // If valid, log the data and clear the error
     setError('');
-    console.log({ course, semester, university, year, faculty, degreeProgram });
-  };
+    navigate('/search', {
+      state: {
+        course,
+        semester,
+        university,
+        year,
+        faculty,
+        degreeProgram,
+      },
+    });
+  }; 
 
   return (
     <div className="search-form-container">
