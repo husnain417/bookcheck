@@ -4,6 +4,12 @@
     display: block;  /* Ensures proper alignment */
   }
   
+  .drop
+  {
+    color: #2f4858 !important;
+    margin-top: -8px !important;
+  }
+
   @media (max-width: 768px) {
     .navbar-brand img {
       max-width: 120px; /* Smaller size for smaller screens */

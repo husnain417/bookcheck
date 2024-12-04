@@ -1,11 +1,12 @@
 /* Features section container */
-.features {
+.features2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap; /* Ensures wrapping on smaller screens */
-    padding: 60px 40px;
+    padding: 100px 40px;
     gap: 20px; /* Spacing between features */
+    background-color: #F5EBE6 !important;
   }
   
   /* Individual feature box */
@@ -17,7 +18,7 @@
     padding: 20px;
     border: 1px solid #ddd; /* Light border for separation */
     border-radius: 8px;
-    background-color: #F5EBE6;
+    background-color: #FFFFFF;
     width: calc(25% - 20px); /* 4 items in a row with gap */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;

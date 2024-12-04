@@ -10,6 +10,7 @@ import Search from "./components/pages/search";
 import Productmain from "./components/pages/productmain";
 import Cart from "./components/pages/cart";
 import { CartProvider } from "./components/CartContext";
+import Faq from "./components/pages/faq";
 
 import AOS from "aos";
 import { useEffect } from "react";
@@ -62,6 +63,7 @@ function App() {
             <Route path="/product1" element={<Products1 header={header} footer={footer} />} />
             <Route path="/search" element={<Search header={header} footer={footer} />} />
             <Route path="/cart" element={<Cart header={header} footer={footer} />} />
+            <Route path="/faq" element={<Faq header={header} footer={footer} />} />
 
           <Route
             path="/single-blog"

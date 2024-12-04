@@ -1,0 +1,53 @@
+[
+    {
+      "id": "faq1",
+      "question": "Can I search for books by university, semester, or course?",
+      "answer": "Yes, our platform allows you to search for books based on your university, semester, and course. Simply use the filters on the search page to find the books you need."
+    },
+    {
+      "id": "faq2",
+      "question": "Do you offer digital versions of course books?",
+      "answer": "Yes, many of our course books are available in digital format. Check the book's details page to see if a digital version is available for purchase or download."
+    },
+    {
+      "id": "faq3",
+      "question": "How do I know if a book is suitable for my course?",
+      "answer": "Each book's details page includes information about the university, semester, and courses it is recommended for. Additionally, you can check reviews from other students."
+    },
+    {
+      "id": "faq4",
+      "question": "What are the shipping options available?",
+      "answer": "We offer multiple shipping options, including standard and express delivery. The estimated delivery time and cost will be displayed during checkout based on your location."
+    },
+    {
+      "id": "faq5",
+      "question": "Can I return or exchange a book if it's not suitable?",
+      "answer": "Yes, we have a return and exchange policy. You can return or exchange books within 7 days of delivery, provided they are in their original condition. Refer to our return policy for more details."
+    },
+    {
+      "id": "faq6",
+      "question": "Do you offer discounts for bulk orders or student groups?",
+      "answer": "Yes, we offer discounts for bulk orders and student groups. Contact our support team with your requirements to learn more about our bulk pricing and discounts."
+    },
+    {
+      "id": "faq7",
+      "question": "How can I track my order?",
+      "answer": "Once your order is shipped, you will receive a tracking number via email or SMS. You can use this number to track your order on our website or the courier's tracking page."
+    },
+    {
+      "id": "faq8",
+      "question": "Are used books available for purchase?",
+      "answer": "Yes, we offer a selection of used books in good condition at discounted prices. Look for the 'Used' option on the book's details page."
+    },
+    {
+      "id": "faq9",
+      "question": "What payment methods do you accept?",
+      "answer": "We accept multiple payment methods, including credit/debit cards, net banking, UPI, and cash on delivery (COD) in select locations."
+    },
+    {
+      "id": "faq10",
+      "question": "Can I sell my used books through your platform?",
+      "answer": "Yes, we provide a platform for students to sell their used books. Visit the 'Sell Your Books' section on our website to learn more about the process."
+    }
+  ]
+  

@@ -67,13 +67,13 @@ const Gallery = ({ isBg }) => {
             <div className="section-title-center text-center">
               <span
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="150"
               >{gallery.title}</span>
               <h2
                 className="display-6"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="200"
               >
                 {gallery.subtitle}
@@ -81,7 +81,7 @@ const Gallery = ({ isBg }) => {
               <div
                 className="section-divider divider-traingle"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="250"
               ></div>
             </div>

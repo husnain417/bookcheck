@@ -2,11 +2,13 @@
   "header": {
     "menu": [
       { "link": "/#home", "title": "Home" },
-      { "link": "/products", "title": "Products" },
-      { "link": "/search", "title": "Search" },
       { "link": "/all-blog", "title": "Blog" },
-      { "link": "/#contact", "title": "Contact" },
-      { "link": "/cart", "title": "Cart & Checkout" }
+      { "link": "/cart", "title": "Cart & Checkout" },
+            { "link": "/#customer-service", "title": "Customer Service", "submenu": [
+          { "link": "/faq", "title": "FAQ" },
+          { "link": "/#contact", "title": "Contact" }
+        ]
+      }
     ]
   }
 }

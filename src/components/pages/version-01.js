@@ -18,6 +18,8 @@ import Testimonial from "../testimonial";
 import Gallery from "../gallery";
 import Cta from "../cta";
 import Services from "../services"
+import Searchcards from "../searchcards";
+import Aboutus from "../aboutus";
 
 const Version01 = ({header, footer}) => {
   const {menu} = footer;
@@ -30,8 +32,10 @@ const Version01 = ({header, footer}) => {
       <Chapter isBg="yes" /> */}
       <Pricing isBg="" />
       <ChapterPreview isBg="yes" />
-      <Services isBg="" />
+      <Searchcards />
       <Gallery isBg="" />
+      <Services isBg="" />
+      <Aboutus />
       <Cta isBg="yes" />
       {/* <AuthorV2 isBg="" />
       <Achievement isBg="yes" />

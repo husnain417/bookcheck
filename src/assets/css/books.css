@@ -59,3 +59,10 @@
     border: 2px solid rgb(235, 81, 26) !important;
   }
   
+
+  .row > p
+  {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: -20px !important;
+  }

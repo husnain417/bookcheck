@@ -9,7 +9,7 @@ const Services = ({ isBg }) => {
 
   return (
     // <!-- ========== Features section start ========== -->
-    <section className="features"
+    <section className="features2"
     data-aos="fade-up"
     data-aos-duration="1000"
     data-aos-delay="600">

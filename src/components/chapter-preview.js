@@ -34,19 +34,20 @@ const ChapterPreview = ({ isBg }) => {
         isBg === "yes" ? "bg-one" : ""
       }`}
     >
+
       <div className="container">
         <div className="row">
         <div className="col-xl-6 offset-xl-3 col-lg-10 offset-lg-1">
             <div className="section-title-center text-center">
               <span
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="150"
               >{featuredBooks.title}</span>
               <h2
                 className="display-6"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="200"
               >
                 {featuredBooks.subtitle}
@@ -54,12 +55,17 @@ const ChapterPreview = ({ isBg }) => {
               <div
                 className="section-divider divider-traingle"
                 data-aos="fade-up"
-                data-aos-duration="1000"
+                data-aos-duration="600"
                 data-aos-delay="250"
               ></div>
             </div>
           </div>
+          <p data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="300">Explore our wide collection of textbooks, including reference books, study guides, key texts, academic journals, test prep materials, and classic literature. Whether you're delving into biology, calculus, or law, we offer affordable options for students and academics alike. Ensure you get the right edition by searching with the book’s ISBN.
+        </p>
         </div>
+
 
         <div className="row testi-row">
           <div className="col-12">
