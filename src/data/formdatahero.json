@@ -1,0 +1,33 @@
+{
+  "universities": [
+    "Harvard University",
+    "Stanford University",
+    "Massachusetts Institute of Technology (MIT)",
+    "University of Oxford",
+    "University of Cambridge"
+  ],
+  "semesters": [
+    "1","2","3","4","5","6","7","8"
+  ],
+  "courses": [
+    "Computer Science",
+    "Mechanical Engineering",
+    "Business Administration",
+    "Medicine",
+    "Law"
+  ],
+  "faculties": [
+    "Faculty of Computer Science",
+    "Faculty of Engineering",
+    "Faculty of Business",
+    "Faculty of Medicine",
+    "Faculty of Law"
+  ],
+  "degreePrograms": [
+    "Bachelor of Science (B.Sc.)",
+    "Master of Science (M.Sc.)",
+    "Doctor of Philosophy (Ph.D.)",
+    "Master of Business Administration (MBA)",
+    "Doctor of Medicine (M.D.)"
+  ]
+}

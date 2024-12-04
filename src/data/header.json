@@ -6,7 +6,7 @@
       { "link": "/cart", "title": "Cart & Checkout" },
             { "link": "/#customer-service", "title": "Customer Service", "submenu": [
           { "link": "/faq", "title": "FAQ" },
-          { "link": "/#contact", "title": "Contact" }
+          { "link": "/contactus", "title": "Contact" }
         ]
       }
     ]
