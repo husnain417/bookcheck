@@ -315,12 +315,14 @@
   font-size: 14px;
   font-weight: 600;
   color: #777;
+  text-align: justify; 
 }
 
 .book-info {
   display: flex;
   gap: 2rem;
   margin: 10px 0;
+  text-align: justify; 
 }
 
 
